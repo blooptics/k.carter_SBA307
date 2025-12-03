@@ -2,5 +2,128 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Playwrite DE Grund", cursive;
+    color: aliceblue;
+}
+/* NAVBAR */
+.navi{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.444),rgba(0,0,0,0.444)),url(../images/Main_Menu.png);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #000000;
+    box-shadow:0px 25px 25px rgb(0, 0, 0);
+}
+.logo{
+    color: aliceblue;
+    font-size: 28px;
+}
+.logo:hover{
+     color: #a30001;
+    transition: 2s;
+}
+span{
+    color: #5b0001;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #a30001;
+    transition: 2s;
+}
+/* NAVBAR ENDS */
+
+
+body{
+    background-color: #000000;
+    text-align: center;
+}
+.intro{
+    text-align: center;
+
+}
+.trailer{
+    text-align: center;
     
+}
+.trailer h1 {
+    color: #a30001;
+}
+.content{
+    
+    justify-content: center;
+    align-items: center;
+
+}
+/* Form */
+
+.code {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:wheat;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+ 
+}
+.code h1{
+    text-align: center;
+    color: #a30001;;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form input, form textarea{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: color(from color srgb r g b);
+}
+form input:focus, form textarea:focus{
+    outline: none;
+    box-shadow: 0,0,5 #320822;
+}
+form button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:color(from color srgb r g b);
+    color: #000000;
+}
+form button:hover{
+    background-color: rgba(172, 9, 26, 1);
+    transition: 1s ease;
+}
+table {
+  width:50%;
+  margin: 0 auto; 
+  padding: 25px;
+}
+.ctable{
+    width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
