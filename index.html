@@ -1,28 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demon of the Strait</title>
     <link rel="stylesheet" href="./styles/style.css">
+
 </head>
+
 <body>
     <div class="navi">
         <nav>
             <h2 class="logo">Fab9</h2>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pages/blog.html">Blog</a></li>
+                <li><a href="./pages/AboutUs.html">About Us</a></li>
             </ul>
         </nav>
     </div>
-    <img src="./images/Main_Menu.png" alt="Main menu for DotS">
-    <h1>Game Pitch</h1>
-    
-    <p>Demon of the Strait is a horror time simulation game where the player leads a group of friendly, happy-go-lucky birthday party guests in surviving the night from a gang of blood-thirsty vampires. </p>
-    <h1>Gameplay Loop</h1>
-    <p>Players must survive an entire night (round) and urge NPCs to stay indoors while they are being lured out by the vampire AI. At the end of the round players are given a rating based on how many NPCs survive the night.</p>
-    <h3>Round Length</h3>
+    <img src="./images/Main_Menu.png" width="1280 px" height="720 px" alt="Main menu for DotS">
+    <div class="GameInfo">
+        <h1>Game Pitch</h1>
+
+        <p>Demon of the Strait is a horror time simulation game where the player leads a group of friendly,
+            happy-go-lucky birthday party guests in surviving the night from a gang of blood-thirsty vampires. </p>
+        <h1>Gameplay Loop</h1>
+        <p>Players must survive an entire night (round) and urge NPCs to stay indoors while they are being lured out by
+            the vampire AI. At the end of the round players are given a rating based on how many NPCs survive the night.
+        </p>
+        <img src="./images/GameOverScreen (1).gif" width="640 px" height="480 px" alt="Gif of the game over screen">
+        <h3>Round Length</h3>
+        <ul>
+            <li>- 6 minutes</li>
+            <li>- Each in-game hour represents one real life minute</li>
+            <li>- Outside light depends based on time of night (day/night cycle)</li>
+        </ul>
+        <h3>Player Actions</h3>
+        <p>As the NPCs are gradually lured by the vampires the player can do various actions to stop this from happening
+        </p>
+        <br>
+        <ul>
+            <li> <b>Engage in Dialogue:</b> The player can enter dialogue with NPCs and select dialogue options to
+                convince
+                them not
+                to be lured (most likely 2 options with one obviously being the right one)</li>
+            <li> <b>Close Doors:</b> NPCs may leave doors open and this will make it easier for the vampires to lure
+                them. By
+                closing them the player decreases the chances.</li>
+            <li><b>Set up Vampire repellent items:</b> The player may find anti-vampire items around the stage that they
+                can
+                place
+                at doorways</li>
+        </ul>
+        <br>
+        <p><b>Special Failed Game Condition:</b> If a player ignores an NPC for too long there is a chance they could trigger a
+            special event where they invite the vampires inside of the building
+            This triggers a jumpscare and an immediate failed game for player
+        </p>
+
+    </div>
+    <br>
+    <hr>
+    <h1>Check Out the Trailer!</h1>
+    <video width="320" height="240" controls>
+        <source src="./images/Trailer (1).mp4" type="video/mp4">
+    </video>
 </body>
+
 </html>
